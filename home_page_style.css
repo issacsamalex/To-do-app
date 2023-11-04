@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f5e72;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#832bff, #227fdc);
+    border-radius: 10px;
+}
+
+.container1 {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #156377, #08185f);
+    padding: 10px;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.blockquote h3 {
+    color: whitesmoke;
+}
+
+.blockquote-footer {
+    color: rgba(247, 255, 255, 0.5);
+}
+
+.text-center p {
+    color: rgba(255, 255, 255, 0.704);
+}
+
+.navbar {
+    background: #e8f8ffa0
+}
+
+.btn-outline-warning {
+    --bs-btn-color: rgb(152, 117, 10);
+    --bs-btn-border-color: rgb(152, 117, 10);
+}
+
+.btn-primary {
+    --bs-btn-bg: #1075a3;
+    --bs-btn-hover-bg: #0d5a72;
+}
+
+.d-inline .fa-list-check {
+    font-size: 32px;
+    color: #08185f;
+}

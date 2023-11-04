@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    padding-top: 100px;
+}
+
+.container img{
+    margin-left: 85px;
+}
+
+.btn-primary {
+    --bs-btn-bg: #1075a3;
+    --bs-btn-border-color: #0d5a72;
+    --bs-btn-hover-bg: #0d5a72;
+    --bs-btn-hover-border-color: #0d5a72;
+    --bs-btn-active-bg: #0d5a72;
+}
